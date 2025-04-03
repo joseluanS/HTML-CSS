@@ -6,7 +6,8 @@
     <title>Exercícios HTML</title>
 </head>
 <body>
-    <h1>Explorando Tags HTML</h1>
+
+    <h1 id="topo">Explorando Tags HTML</h1>
     <h2>Seção 1</h2>
     <h3>Subseção 1.1</h3>
     <ul>
@@ -26,23 +27,67 @@
     <br>
     <img src="https://www.revistaadventista.com.br/wp-content/uploads/2020/12/dacruz-ao-trono-AdobeStock_261798920.jpg" alt="Ele morreu ontem, ressuscitou hoje, e voltará amanhã" width="300px" height="300px"/>
     <br>
+    <a href="#topo">Clique aqui para voltar ao topo</a>
     <br>
     <br>
+
+    <!--Tabela-->
+    <table border="1">
+        <thead style="background-color:rgb(211,211,211);">
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luan</td>
+                <td>25</td>
+                <td>PG</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>25</td>
+                <td>PG</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Tabela-->
+
     <br>
     <br>
+
+    <!--Formulário-->
+    <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <input type="text" placeholder="texto" required/>
+            <br>
+            <input type="email"placeholder="e-mail" required/>
+            <br>
+            <textarea placeholder="Mensagem"></textarea>
+            <br>
+            <input type="submit" value="Enviar!" />
+        </fieldset>
+    </form>
+    <!--Formulário-->
+
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a href="exercicios_HtmL.html">Clique aqui para voltar ao topo</a>
+    <!--tabela mesclada-->
+        <table border="1">
+            <tr>
+                <th colspan="2">HTML</th>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>18:00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sobre niveis de titulo</td>
+                <td>Sobre atributos: classes e id</td>
+            </tr>
+        </table>
+  
+    <!--tabela mesclada-->
 </body>
 </html>
